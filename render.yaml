@@ -10,3 +10,7 @@ services:
         sync: false
       - key: CHANNEL_SECRET
         sync: false
+      - key: MESSAGE_TEXT
+        value: "早安 🌞 今天要加油！"
+      - key: CRON_SCHEDULE
+        value: "0 9 * * *"
