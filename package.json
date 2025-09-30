@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js" },
+    "start": "node index.js"
+  },
   "dependencies": {
     "@line/bot-sdk": "^7.5.2",
     "express": "^4.18.2",
