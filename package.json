@@ -1,15 +1,13 @@
-package.json
 {
-  "name": "line-bot",
+  "name": "line-bot-scheduler",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
-  },
+    "start": "node index.js" },
   "dependencies": {
-    "@line/bot-sdk": "^9.0.0",
+    "@line/bot-sdk": "^7.5.2",
     "express": "^4.18.2",
-    "node-cron": "^3.0.0"
+    "node-cron": "^3.0.2"
   }
 }
